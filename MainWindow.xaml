@@ -52,7 +52,7 @@
                     <Image Height="100" Width="120" Source="22_heat.png" Margin="0,25,0,0"/>
                     <Image Height="100" Width="120" Source="99_heat.png" Margin="0,25,0,0"/>
                     <Image Height="100" Width="120" Source="13_heat.png" Margin="0,25,0,0"/>
-
+                    
                 </WrapPanel>
             </StackPanel>
         </Border>
