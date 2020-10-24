@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="399.785" Width="927.764">
     <StackPanel Margin="5,5,5,0">
-
-
+  
         <Border CornerRadius="3" Margin="0,0,0,20" BorderThickness="3" BorderBrush="Black" >
             <StackPanel >
                 <StackPanel.Background>
@@ -28,8 +27,6 @@
                     <Image Height="100" Width="120" Source="3_lakers.png" Margin="0,25,0,0"/>
                     <Image Height="100" Width="120" Source="39_lakers.png" Margin="0,25,0,0"/>
                 </WrapPanel>
-
-
 
             </StackPanel>
         </Border>
