@@ -5,9 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EJ2LayoutDINT"
         mc:Ignorable="d"
-        Title="MainWindow" Height="399.785" Width="927.764">
+        Title="MainWindow" Height="399.785" Width="918.497">
+
+    <Window.Resources>
+        <Style TargetType="Image">
+            <Setter Property="Height" Value="100"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Margin" Value="0,25,0,0"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
+            
+        
+        </Style>
+
+
+    </Window.Resources>
+
     <StackPanel Margin="5,5,5,0">
-  
+
         <Border CornerRadius="3" Margin="0,0,0,20" BorderThickness="3" BorderBrush="Black" >
             <StackPanel >
                 <StackPanel.Background>
@@ -18,14 +37,14 @@
                 </StackPanel.Background>
 
                 <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <TextBlock Tag="champs"  Height="40" TextWrapping="WrapWithOverflow" Text="Los Angeles Laker"  FontWeight="Bold" FontSize="30"/>
+                    <TextBlock Tag="champs" Text="Los Angeles Laker"  />
                 </WrapPanel>
                 <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="115" Margin="152,0" >
-                    <Image Height="100" Width="120" Source="9_lakers.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="14_lakers.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="23_lakers.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="3_lakers.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="39_lakers.png" Margin="0,25,0,0"/>
+                    <Image Source="9_lakers.png" />
+                    <Image Source="14_lakers.png" />
+                    <Image Source="23_lakers.png" />
+                    <Image Source="3_lakers.png"  />
+                    <Image Source="39_lakers.png" />
                 </WrapPanel>
 
             </StackPanel>
@@ -43,19 +62,18 @@
 
 
                 <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <TextBlock Foreground="White" Height="40" TextWrapping="Wrap" Text="Miami Heat" FontWeight="Bold" FontSize="30"/>
+                    <TextBlock Foreground="White" Text="Miami Heat"/>
                 </WrapPanel>
                 <WrapPanel  HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="112" Margin="131,0">
 
-                    <Image Height="100" Width="120" Source="7_heat.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="14_heat.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="22_heat.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="99_heat.png" Margin="0,25,0,0"/>
-                    <Image Height="100" Width="120" Source="13_heat.png" Margin="0,25,0,0"/>
-                    
+                    <Image Source="7_heat.png"  />
+                    <Image Source="14_heat.png" />
+                    <Image Source="22_heat.png" />
+                    <Image Source="99_heat.png" />
+                    <Image Source="13_heat.png" />
+
                 </WrapPanel>
             </StackPanel>
         </Border>
-
     </StackPanel>
 </Window>
